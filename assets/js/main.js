@@ -1,9 +1,10 @@
 //import * as game from './game';
+
 /**
- * (C) 2023, SENRIMA TEAM
- * 
+ * (C) 2023 SENRIMA TEAM / KARHUT GROUP BT.
  * DEVELOPER: VIKTOR SZRENKA
  * 
+ * ALL RIGHTS RESERVED.
  */
 
 window.onload = function () {
@@ -67,9 +68,14 @@ window.onload = function () {
     gameCanvas.width = window.innerWidth;
     gameCanvas.height = window.innerHeight;
 
+    const scaleRatio = {
+        x: 1.25,
+        y: 1.25,
+    };
+
     const scaledCanvas = {
-        width: gameCanvas.width / 4,
-        height: gameCanvas.height / 4,
+        width: gameCanvas.width / scaleRatio.x,
+        height: gameCanvas.height / scaleRatio.y,
     };
 
     const game = {
@@ -98,17 +104,17 @@ window.onload = function () {
             x: 0,
             y: 0,
         },
-        imageSrc: './assets/img/bg.png',
+        imageSrc: './assets/img/background.png',
     });
 
     function animate() {
         window.requestAnimationFrame(animate);
 
-        gameContext.fillStyle = 'darkslategrey';
+        gameContext.fillStyle = 'white';
         gameContext.fillRect(0, 0, gameCanvas.width, gameCanvas.height);
 
         gameContext.save();
-        gameContext.scale(4, 4);
+        gameContext.scale(scaleRatio.x, scaleRatio.y);
         gameContext.translate(0, -background.image.height + scaledCanvas.height);
         background.update();
         gameContext.restore();
