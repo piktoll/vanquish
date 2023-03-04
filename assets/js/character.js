@@ -1,4 +1,4 @@
-import CharacterClass, { characterClasses } from './characterclass.js';
+import { CharacterClass, characterClasses } from './characterclass.js';
 
 export default class Character {
     constructor({ name, characterClass }) {
