@@ -1,65 +1,65 @@
 :root {
     --primary: #E81758;
-            --moon: #eeede7;
-            /* common */
-            --sunflower: #f8d210;
-            /* uncommon */
-            --lime: #8ff517;
-            /* special */
-            --tangerine: #f57d17;
-            /* rare */
-            --rouge: #f51720;
-            /* heroic */
-            --tide: #1720f5;
-            /* extraordinary */
-            --aubergine: #7d17f5;
-            /* phenomenal */
-            --drab: #dbc39a;
-            /* unique */
-        }
+    --moon: #eeede7;
+    /* common */
+    --sunflower: #f8d210;
+    /* uncommon */
+    --lime: #8ff517;
+    /* special */
+    --tangerine: #f57d17;
+    /* rare */
+    --rouge: #f51720;
+    /* heroic */
+    --tide: #1720f5;
+    /* extraordinary */
+    --aubergine: #7d17f5;
+    /* phenomenal */
+    --drab: #dbc39a;
+    /* unique */
+}
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
-        ul,
-        ol {
-            list-style-type: none;
-            padding-left: 0;
-        }
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+}
 
-        button {
-            padding: 1rem 2rem;
-        }
+button {
+    padding: 1rem 2rem;
+}
 
-        #options {
-            width: 60%;
-        }
+#options {
+    width: 60%;
+}
 
-        nav>button {
-            display: flex;
-            margin: 1rem auto;
-        }
+nav>button {
+    display: flex;
+    margin: 1rem auto;
+}
 
-        #sidebar {
-            width: 40%;
-            display: flex;
-            float: right;
-        }
+#sidebar {
+    width: 40%;
+    display: flex;
+    float: right;
+}
 
-        .uibox {
-            flex-direction: column;
-            background: linear-gradient(to right, #fca, transparent);
-            border-left: solid 0.25rem #d61;
-            padding: 0.5rem;
-        }
+.uibox {
+    flex-direction: column;
+    background: linear-gradient(to right, #fca, transparent);
+    border-left: solid 0.25rem #d61;
+    padding: 0.5rem;
+}
 
-        .item-uibox {
-            flex-direction: column;
-            border-radius: 10px;
-            background:  #ffc;
-            padding: 0.5rem;
-        }
+.item-uibox {
+    flex-direction: column;
+    border-radius: 10px;
+    background: #ffc;
+    padding: 0.5rem;
+}
