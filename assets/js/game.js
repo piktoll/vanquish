@@ -1,11 +1,7 @@
-import CharacterClass from './characterclass.js';
-import { characterClasses } from './characterclass.js';
 import Character, { dummy } from './character.js';
-import GameMap, { gameMaps } from './gamemap.js';
 import Enemy, { enemies } from './enemy.js';
-import ItemType, { itemTypes } from './itemtype.js';
-import ItemTier, { itemTiers } from './itemtier.js';
 import Item, { items } from './item.js';
+import GameMap, { gameMaps } from './gamemap.js';
 
 window.onload = function () {
     const game = {
