@@ -1,4 +1,5 @@
-import CharacterClass, { characterClasses } from './characterclass.js';
+import CharacterClass from './characterclass.js';
+import { characterClasses } from './characterclass.js';
 import Character, { dummy } from './character.js';
 import GameMap, { gameMaps } from './gamemap.js';
 import Enemy, { enemies } from './enemy.js';
