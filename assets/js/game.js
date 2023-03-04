@@ -2,9 +2,10 @@ import CharacterClass, { characterClasses } from "./characterclass";
 import Character, { dummy } from "./character";
 import GameMap, { gameMaps } from "./gamemap";
 import Enemy, { enemies } from "./enemy";
-import Item, { items } from "./item";
 import ItemType, { itemTypes } from './itemtype.js';
 import ItemTier, { itemTiers } from './itemtier.js';
+import Item, { items } from "./item";
+
 
 
 window.onload = function () {
